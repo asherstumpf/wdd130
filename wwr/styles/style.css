@@ -1,336 +1,116 @@
+div {
+    text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: aliceblue;
+}
+
+#hero-msg h1 {
+    text-align: center;
+}
+
+#hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+    width: 100%;
+}
+
+#background {
+    height: 725px;
+}
+
 body {
-    background-color: #1d3557;
-    margin: 0;
-    min-width: 100vw;
-    min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    backdrop-filter: blur(20px);
-    /* border: 2px #457b9d; */
-    position: fixed;
-    /* min-width: 100vw; */
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.466);
-    z-index: 1;
-    font-family: "Times New Roman", Times, serif;
-  }
-  
-  .navlinks {
-    text-decoration: none;
-    color: white;
-    font-size: 2em;
-    white-space: nowrap;
-  }
-  .navlinks:hover {
-    color: gray;
-  }
-  
-  .heroBox {
-    width: 100%;
-    position: relative;
-    text-align: center;
-  }
-  /* #hero-img {
-    width: 100%;
-  } */
-  .herotitle {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 2em;
-  }
-  .herosub {
-    font-size: 0.75em;
-  }
-  .bookButton {
-    background-color: #e63946;
-    color: white;
-    font-size: 0.7em;
-    border-radius: 4px;
-  }
-  .bookButton:hover {
-    background-color: white;
-    color: #e63946;
-  }
-  .productGallery {
-    display: flex;
-    justify-content: space-around;
-  }
-  .product {
-    color: white;
-    width: 30%;
-    position: relative;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.438);
-    transition: 0.2s;
-  }
-  .product:hover {
-    box-shadow: 0 4px 30px rgb(0, 0, 0);
-    transform: scale(99%);
-  }
-  .product > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .product h2 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.452);
-  }
-  .product h2 img {
-    width: 40px;
-    filter: invert(100%);
-    margin-right: 20px;
-  }
-  #uglybrownbox {
-    padding: 40px;
-    background-color: #a8dadc;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-  }
-  .mountains {
-    padding: 0px;
-    grid-column: 1/5;
-    grid-row: 1/5;
-    overflow: hidden;
-  }
-  .mountains img {
-    height: 300px;
-    box-shadow: 0 10px 10px 10 rgba(0, 0, 0, 0.582);
-  }
-  .mountainNoteBox {
-    background-color: rgba(223, 223, 223, 0.705);
-    border: thick;
-    border-radius: 10px;
-    grid-column: 3/7;
-    grid-row: 2/4;
-  }
-  #mountainBook {
-    display: flex;
-    justify-content: center;
-    grid-column: 4/5;
-    grid-row: 4/5;
-    margin-bottom: 50px;
-  
-    align-items: center;
-    font-size: 1.5em;
-  }
-  
-  footer {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  footer a {
-    text-decoration: none;
-    color: white;
-  }
-  footer h3 {
-    color: white;
-  }
-  footer a:hover {
-    color: gray;
-  }
-  footer h3:hover {
-    color: gray;
-  }
-  form {
-    /* Center the form on the page */
-    margin: 0 auto;
-    width: 500px;
-    /* Form outline */
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  form li + li {
-    margin-top: 1em;
-  }
-  
-  label {
-    /* Uniform size & alignment */
-    display: inline-block;
-    width: 90px;
-    text-align: right;
-  }
-  
-  input,
-  textarea {
-    /* To make sure that all text fields have the same font settings
-       By default, textareas have a monospace font */
-    font: 1em sans-serif;
-  
-    /* Uniform text field size */
-    width: 300px;
-    box-sizing: border-box;
-  
-    /* Match form field borders */
-    border: 1px solid #999;
-  }
-  
-  input:focus,
-  textarea:focus {
-    /* Additional highlight for focused elements */
-    border-color: #000;
-  }
-  
-  textarea {
-    /* Align multiline text fields with their labels */
-    vertical-align: top;
-  
-    /* Provide space to type some text */
-    height: 5em;
-  }
-  
-  .button {
-    /* Align buttons with the text fields */
-    padding-left: 90px; /* same size as the label elements */
-  }
-  
-  button {
-    /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
-    margin-left: 0.5em;
-  }
-  #feedback {
-    z-index: 10;
-    background-color: antiquewhite;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 0.5em;
-    /* make this element invisible until we are ready for it */
-    display: none;
-  }
-  .moveDown {
-    margin-top: 3em;
-  }
-  .active {
-    color: #008181;
+    background-color: rgb(255, 246, 255);
+}
+
+header {
+    background-color: rgba(20, 30, 13, .7);
+}
+
+nav a:hover {
     background-color: black;
-  }
-  .rivers-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 3fr 1fr 1fr 3fr 1fr 1fr;
-    grid-row-gap: 2em;
-    justify-items: center;
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-  .rivers-title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-    letter-spacing: 3px;
-    color: rgb(255, 255, 255);
-    border-top: 5px double;
-    margin: 100px 0;
-    border-bottom: 5px double;
-    grid-column: 2/8;
-    grid-row: 1/2;
-    justify-self: stretch;
-    text-align: center;
-  }
-  .river1-img {
-    grid-row: 2/5;
-    grid-column: 2/5;
+    color: #d9c2a3;
+    text-decoration: none;
+}
+
+.book,
+.join {
+    background-color: steelblue;
+    color: black;
+}
+
+.book:hover,
+.join:hover {
+    background-color: slategray;
+    color: black;
+    text-decoration: none;
+}
+
+#background {
+    background-color: rgb(218, 210, 105);
+}
+
+.msg {
+    background-color: rgb(20, 30, 13, 17);
+}
+
+footer {
+    background-color: rgb(20, 30, 13, 17);
+}
+
+.home-title {
+    color: #9d60;
+}
+
+h4 {
+    color: white;
+}
+
+.msg h2 {
+    color: white;
+}
+
+.msg p {
+    color: aliceblue;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: beige;
+}
+
+.icon {
+    width: 80px;
+}
+
+.logo {
+    width: 5%;
+}
+
+footer h3 a:hover {
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+#hero-img {
     width: 100%;
-    box-shadow: 5px 5px 10px rgb(29, 29, 29);
-  }
-  .river1-text {
-    grid-column: 4/7;
-    grid-row: 3/4;
-  }
-  .river2-img {
-    grid-row: 6/9;
-    width: 100%;
-    grid-column: 5/8;
-    box-shadow: 5px 5px 10px rgb(29, 29, 29);
-  }
-  .river2-text {
-    grid-column: 3/6;
-    grid-row: 7/8;
-  }
-  .river1-text,
-  .river2-text {
-    background-color: #a8dadc;
-    height: 250px;
-    padding: 35px;
-    line-height: 1.5em;
-    box-shadow: 5px 5px 10px rgb(29, 29, 29);
-    overflow: hidden;
-    height: auto;
-  }
-  
-  @media screen and (max-width: 900px) {
-    .heroBox,
-    .productGallery {
-      display: block;
-      height: auto;
-    }
-    nav,
-    footer {
-      flex-direction: column;
-    }
-    nav {
-      position: static;
-    }
-    nav a {
-      display: block;
-      padding: 5px;
-    }
-    .navlinks {
-      font-size: 20px;
-    }
-  
-    .herotitle {
-      padding-top: 70px;
-      margin-top: 0;
-    }
-    .herosub h4 {
-      display: none;
-    }
-    .home-title {
-      font-size: 25px;
-      color: #6f7364;
-    }
-    .product {
-      margin: 50px auto;
-      width: 60%;
-    }
-    #uglybrownbox {
-      background-color: rgba(0, 0, 0, 0);
-    }
-    .mountains,
-    #mountainNoteBox {
-      width: 80%;
-      display: block;
-      margin: 0 auto;
-    }
-    footer {
-      margin-top: 25px;
-    }
-  }
+}
