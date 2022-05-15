@@ -46,7 +46,7 @@ nav a:hover {
 
 .book,
 .join {
-    background-color: steelblue;
+    background-color: rgb(175, 181, 185);
     color: black;
 }
 
@@ -58,7 +58,7 @@ nav a:hover {
 }
 
 #background {
-    background-color: rgb(218, 210, 105);
+    background-color: rgb(124, 124, 124);
 }
 
 .msg {
