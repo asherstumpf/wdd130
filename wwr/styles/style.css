@@ -1,168 +1,116 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
-
-#content{
+div {
+    text-align: center;
     max-width: 1600px;
     margin: 0 auto;
 }
-/* body{
-    background-color: red;
-} */
-nav{
-    text-align: left;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-around; 
 
-}
-a{
+nav a {
     text-align: center;
-    text-decoration: none;
-    color: lightblue;
-    text-shadow: 1px 1px black
+    color: aliceblue;
+}
 
-}
-#hero-box{
+#hero-msg h1 {
     text-align: center;
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
-    
 }
-#hero-img{
+
+#hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
     width: 100%;
 }
-h1{
-    text-align: center;
-}
-#hero-msg{
-    text-align: center;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    text-shadow: 1px 1px #D8A47f;
-    text-decoration-color: white;
-    margin-top: 100px;
-}
-#hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
-}
-h4{
-    text-align: center;
-    color: lightblue;
-}
-h3{
-    color: black;
-    text-decoration: underline;
-}
-.button-box{
-    text-align: center;
-    color: lightblue;
-}
-main{
-    text-align: center;
 
-}
-section{
-    text-align: center;
-}
-main section img {
-    box-sizing: border-box;
-}
-#background{
+#background {
     height: 725px;
-    background-color: #D8A47F;
-    grid-column: 1/11;
-    grid-row: 4/9;
 }
-body{
-    background-color: lightblue;
-    font-family: "Im Fell French Cannon SC", "Helvetica Neue", "sans serif";
-    font-size: 22px;
-    margin: 0px;
-    padding: 0px;
-}
-header{
-    display: grid;
-    grid-template-columns: 150px auto;
-}
-nav a:hover{
-    background-color: transparent;
-    color: #D8A47f;
-}
-.book{
-    background-color: #D8A47F;
-    color: black;
-    text-decoration: none;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-.join{
-    background-color: lightblue;
-    color: black;
-    text-decoration: none;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-.book:hover{
-    background-color: lightblue;
-    color: black;
-}
-.join:hover{
-    background-color: lightblue;
-    color: black;
-}
-.msg{
-    background-color: #D8A47F;
-    color: black;
-    line-height: 1.5em;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    border: 3px solid lightblue;
-    box-shadow: 5px 5px 10px;
-    border-radius: 5%;
-    
-}
-footer{
-    background-color: #D8A47F;
-    color: black;
-    text-decoration: underline;
-    padding: 25px 50px;
-    margin-top: 200px;
-    font-size: .5em;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.home-title{
-    color: lightblue;
-    font-family: "Aguafina Script","Aclonica","Playfair Display ital@1 display", "Helvetica Neue",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2.5em;
-    margin-top: 10px;
-}
-.msg h2{
-    color: black;
-    font-family: "Im Fell French Cannon SC", Arial, Helvetica, sans-serif;
-    margin: 0;
 
+body {
+    background-color: rgb(255, 246, 255);
 }
-.home-grid{
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
+
+header {
+    background-color: rgba(20, 30, 13, .7);
 }
-.msg p{
+
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+    text-decoration: none;
+}
+
+.book,
+.join {
+    background-color: steelblue;
     color: black;
-    padding-bottom: 15px;
 }
-footer a{
+
+.book:hover,
+.join:hover {
+    background-color: slategray;
     color: black;
     text-decoration: none;
 }
-footer a:hover{
-    color: black;
+
+#background {
+    background-color: rgb(218, 210, 105);
+}
+
+.msg {
+    background-color: rgb(20, 30, 13, 17);
+}
+
+footer {
+    background-color: rgb(20, 30, 13, 17);
+}
+
+.home-title {
+    color: #9d60;
+}
+
+h4 {
+    color: white;
+}
+
+.msg h2 {
+    color: white;
+}
+
+.msg p {
+    color: aliceblue;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: beige;
+}
+
+.icon {
+    width: 80px;
+}
+
+.logo {
+    width: 5%;
+}
+
+footer h3 a:hover {
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+#hero-img {
+    width: 100%;
 }
