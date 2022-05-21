@@ -72,7 +72,9 @@ footer {
 .home-title {
     color: #9d60;
 }
-
+h1 {
+    color:black
+}
 h4 {
     color: rgb(19, 9, 9);
 }
