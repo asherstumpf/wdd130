@@ -6,7 +6,7 @@ div {
 
 nav a {
     text-align: center;
-    color: rgb(23, 24, 26);
+    color: rgb(208, 212, 220);
 }
 
 #hero-msg h1 {
@@ -31,7 +31,7 @@ main section {
 }
 
 body {
-    background-color: rgb(17, 10, 17);
+    background-color: rgb(241, 235, 241);
 }
 
 header {
@@ -74,7 +74,7 @@ footer {
 }
 
 h4 {
-    color: white;
+    color: rgb(19, 9, 9);
 }
 
 .msg h2 {
