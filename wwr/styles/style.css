@@ -36,7 +36,7 @@ body {
 }
 
 header {
-    background-color: rgb(31, 31, 2);
+    background-color: rgba(31, 31, 2, 0.534);
 }
 
 header {
@@ -195,7 +195,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: rgb(20, 30, 13, 17);
+    background-color: rgb(31, 31, 2,);
     padding: 25px 50px;
     margin-top: 200px;
 }
@@ -341,7 +341,7 @@ body {
 }
 
 .card-img {
-    border: 10px solid rgb(34, 49, 35);
+    border: 10px solid rgb(31, 31, 2);
 }
 
 main section img {
