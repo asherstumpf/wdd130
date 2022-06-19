@@ -173,3 +173,11 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+#kayak {
+  height: 150px;
+  width: 200px;
+  float: left;
+  border: 2px solid #1F1F02;
+  border-radius: 5px;
+  margin-left: 10px;
+}
