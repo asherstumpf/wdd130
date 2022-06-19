@@ -429,7 +429,7 @@ img.mountains {
 }
 
 #raft {
-    height: 200px;
+    height: 150px;
     width: 200px;
     float: left;
     border: 1px solid #ddd;
@@ -445,7 +445,7 @@ img.mountains {
 
 #tube {
     float: right;
-    height: 200px;
+    height: 150px;
     width: 200px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -459,7 +459,7 @@ img.mountains {
 }
 
 #kayak {
-    height: 200px;
+    height: 150px;
     width: 200px;
     float: left;
     border: 1px solid #ddd;
@@ -468,10 +468,18 @@ img.mountains {
 }
 
 #rides8 {
-    font-size: 19px;
+    font-size: 25px;
     margin: 30px;
 }
 
+#conta {
+    background-color:  hsl(76, 7%, 42%);
+    margin-left: 10px;
+    margin-top: 70px;
+    padding: 40px;
+    box-shadow: 10px 10px 5px rgb(141, 170, 115);
+    border-radius: 4px;
+}
 #whitekayak {
     background-color:  hsl(76, 7%, 42%);
     margin-left: 10px;
@@ -494,7 +502,7 @@ img.mountains {
     background-color:  hsl(76, 7%, 42%);
     margin-left: 10px;
     margin-top: 70px;
-    padding: 30px;
+    padding: 40px;
     box-shadow: 10px 10px 5px rgb(141, 170, 115);
     border-radius: 4px;
 }
