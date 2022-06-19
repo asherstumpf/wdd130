@@ -32,7 +32,7 @@ main section {
 }
 
 body {
-    background-color: #6F7364;
+    background-color: #ffffff;
 }
 
 header {
@@ -481,7 +481,7 @@ img.mountains {
 }
 
 #conta {
-    background-color:  hsl(0, 0%, 100%);
+    background-color:  hsl(76, 7%, 42%);
     margin-left: 10px;
     margin-top: 70px;
     padding: 40px;
