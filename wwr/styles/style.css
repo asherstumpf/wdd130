@@ -436,6 +436,14 @@ img.mountains {
     border-radius: 4px;
     margin-left: auto;
 }
+#logom {
+    height: 150px;
+    width: 200px;
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: auto;
+}
 
 #rides6 {
     font-size: 15px;
