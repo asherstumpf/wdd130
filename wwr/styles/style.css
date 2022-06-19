@@ -32,7 +32,7 @@ main section {
 }
 
 body {
-    background-color: #fcfbfb;
+    background-color: #6F7364;
 }
 
 header {
@@ -133,7 +133,7 @@ main.home-grid {
 }
 
 footer {
-    background-color: hsl(76, 7%, 42%);
+    background-color: #1F1F02;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
