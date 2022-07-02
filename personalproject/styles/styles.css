@@ -147,7 +147,9 @@ main {
     margin: 0px; 
 }
 
-
+h2 {
+    text-align: center;
+}
 div.wrapper { 
     width: 850px; 
     margin: 0 auto; 
