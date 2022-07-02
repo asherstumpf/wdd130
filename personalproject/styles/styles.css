@@ -164,6 +164,13 @@ main .section-one {
     grid-template-columns: 1fr 1fr;
     grid-gap: 100px; 
 }
+main .section-seven {
+    align-items: center; 
+}
+main .section-three{
+    align-items: center; 
+}
+
 
 
 main .section-two { 
