@@ -158,12 +158,13 @@ div.wrapper {
 }
 
 main .section-one {
-    margin: 100px auto;
+    margin: 30px auto;
     align-items: center; 
     display: grid; 
     grid-template-columns: 1fr 1fr;
-    grid-gap: 25px; 
+    grid-gap: 100px; 
 }
+
 
 main .section-two { 
     margin: 30px auto;
