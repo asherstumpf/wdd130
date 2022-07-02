@@ -522,9 +522,6 @@ padding-bottom: 75px;
       width: 25%; 
       text-align: left;  
   }
-  
-  element.style {
-}
 .content {
     background: #fff;
     line-height: 25px;
@@ -538,7 +535,7 @@ padding-bottom: 75px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-user agent stylesheet
+
 div {
     display: block;
 }
