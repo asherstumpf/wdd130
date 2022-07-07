@@ -332,7 +332,6 @@ h3 {
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #8b8b8b;}
-  
   footer .footer {
     display: flex;
     justify-content: space-evenly;
