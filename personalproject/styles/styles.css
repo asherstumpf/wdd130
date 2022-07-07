@@ -293,7 +293,7 @@ h3 {
 }
 /* Dropdown Button */
 .dropbtn {
-    background-color: #BCABAE;
+    background-color: #aaaaaa;
     color: rgb(0, 0, 0);
     padding: 16px;
     font-size: 16px;
@@ -331,7 +331,7 @@ h3 {
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #716969;}
+  .dropdown:hover .dropbtn {background-color: #635e5e;}
 
   footer .footer {
     display: flex;
