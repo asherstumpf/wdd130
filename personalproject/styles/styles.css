@@ -276,7 +276,7 @@ p.colored {
 }
 
 p.heading {
-    font-family: 'Montserrat', sans-serif;
+    font-family: sans-serif;
 }
 
 h2,
@@ -417,13 +417,13 @@ form {
        between the labels and their text fields */
     margin-left: .5em;
     background: transparent;
-    border: 2px solid #54494b;
-    color: #54494b;
+    border: 2px solid #BCABAE;
+    color: #BCABAE;
     border-radius: 1em; 
      
   }
   button:hover{ 
-      background: #B33951;
+      background: #BCABAE;
       color: #F1F7ED; 
   }
   #feedback { 
@@ -435,12 +435,12 @@ form {
   width: 350px; 
   margin: 0 auto; 
   background: #F1F7ED; 
-  color: #B33951;
+  color: #BCABAE;
   border-radius: 1em; 
   position: absolute; 
   left: 150px; 
   top: 150px; 
-  border: 5px solid #91C7B1;
+  border: 5px solid #BCABAE;
   opacity: .9;
   
    }
