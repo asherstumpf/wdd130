@@ -118,9 +118,6 @@ nav>ul {
     grid-column: 2/4; 
       
 }
-a{ 
-    color: #B33951; 
-}
 nav a {
     padding: 1em;
     min-width: 70px;
@@ -128,13 +125,8 @@ nav a {
     text-transform: uppercase; 
 
 }
-nav a:link{
-    color: #B33951; 
-}
-
-
 nav a:visited {
-    color: #54494b;
+    color: #716969;
 }
 
 nav a:hover {
@@ -191,8 +183,8 @@ main .section-five{
     padding-bottom: 25px; 
 }
 p {
-    font-family: 'Roboto-Slab', serif;
-    color: #54494b;
+    font-family: serif;
+    color: #000000;
     padding: 1rem;
     margin: 0;
     background-color: #F1F7ED;
@@ -556,7 +548,7 @@ padding-bottom: 75px;
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #2D2E2E;}
+  .dropdown:hover .dropbtn {background-color: #716969;}
   
   label.children{ 
     width: 100%; 
