@@ -116,7 +116,7 @@ nav>ul {
     display:flex; 
     flex: 1 1 auto;
     grid-column: 2/4;
-    font: serif 
+     
       
 }
 nav a {
@@ -291,7 +291,7 @@ h3 {
     padding: 16px;
     font-size: 16px;
     border: none;
-    font: serif
+    
   }
   
   /* The container <div> - needed to position the dropdown content */
@@ -308,7 +308,7 @@ h3 {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    font: serif
+    
   }
   
   /* Links inside the dropdown */
@@ -317,7 +317,7 @@ h3 {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    font: serif
+    
   }
   
   /* Change color of dropdown links on hover */
@@ -374,7 +374,7 @@ form {
     list-style: none;
     padding: 0;
     margin: 0;
-    font: serif
+    
   }
   
   form li + li {
@@ -508,7 +508,7 @@ form {
     padding: 16px;
     font-size: 16px;
     border: none;
-    font: serif
+    
   }
   
   /* The container <div> - needed to position the dropdown content */
@@ -525,7 +525,7 @@ form {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    font: serif
+    
   }
   
   /* Links inside the dropdown */
@@ -554,7 +554,7 @@ form {
   label{ 
       width: 25%; 
       text-align: left;
-      font: serif  
+        
   }
 
   * {
