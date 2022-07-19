@@ -4,7 +4,7 @@
     --accent1-color: #BCABAE;
     --accent2-color: #0F0F0F;
     --heading-font: sans-serif;
-    --paragraph-family:  serif;
+    --paragraph-family:serif;
     --heading-font-color: #ffffff;
 }
 @media screen and (max-width: 550px) {
@@ -115,7 +115,8 @@ nav>ul {
     list-style-type: none;
     display:flex; 
     flex: 1 1 auto;
-    grid-column: 2/4; 
+    grid-column: 2/4;
+    font: serif 
       
 }
 nav a {
